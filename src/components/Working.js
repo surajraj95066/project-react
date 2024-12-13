@@ -8,17 +8,8 @@ export default function Working() {
             <Navbar />
             <div className="container mt-5">
                 <h1 className="display-4 text-center mb-4">How To Assemble</h1>
-                <div className="embed-responsive embed-responsive-16by9 mb-4">
-                    <iframe 
-                        className="embed-responsive-item" 
-                        width="100%" 
-                        height="400px" 
-                        src="https://www.youtube.com/embed/L-tFJRGQBIo?si=NjAAQyiJsSEFsfaW" 
-                        title="YouTube video player" 
-                        frameBorder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                        allowFullScreen
-                    ></iframe>
+                <div className="embed-responsive embed-responsive-16by9 mb-4" style={{ backgroundColor: "#000", display: "flex", justifyContent: "center", alignItems: "center", color: "#fff", height: "400px" }}>
+                    <p>Video Placeholder ("Coming Soon: Step-by-Step Video Guide for Assembly")</p>
                 </div>
                 <div className="content">
                     <p className="lead"><b>How does the Foldhope work?</b></p>
@@ -34,13 +25,12 @@ export default function Working() {
                     <li className="mb-2">1. Assemble the Foldhope following the instructions provided.</li>
                     <li className="mb-2">2. Prepare your specimen on a slide and place it in the Foldhope.</li>
                     <li className="mb-2">3. Use the sliding focus ramp to bring the specimen into clear view.</li>
-                    <li className="mb-2">4. Use your thumbs to press and move the lens stage in the same direction to pan around the sample</li>
+                    <li className="mb-2">4. Use your thumbs to press and move the lens stage in the same direction to pan around the sample.</li>
                     <li className="mb-2">5. Observe and enjoy exploring the microscopic world!</li>
                 </ol>
                 <a className='my-3' href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4062392/" target="_blank" rel="noopener noreferrer">....Reference link......</a>
             </div>
-            <Footer></Footer>
+            <Footer />
         </div>
     );
 }
-
