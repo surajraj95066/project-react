@@ -18,6 +18,9 @@ export default function Navbar() {
                         <li className="nav-item">
                             <Link to="/Data1" className="nav-link">Survey Report</Link>
                         </li>
+                        <li className="nav-item">
+                            <Link to="/Testing" className="nav-link">Testing</Link>
+                        </li>
                     </ul>
                 </div>
             </div>
