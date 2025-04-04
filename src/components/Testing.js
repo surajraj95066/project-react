@@ -1,4 +1,5 @@
 import React, { useState, useRef } from 'react';
+import Navbar from './Navbar';
 
 function Testing() {
   const [image, setImage] = useState(null);
@@ -34,6 +35,7 @@ function Testing() {
 
   return (
     <div className="container text-center mt-5">
+      <Navbar />
       <h2>Upload or Capture Image</h2>
       
       {/* File Upload */}
